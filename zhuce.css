@@ -1,0 +1,41 @@
+*{
+	padding: 0;
+	margin: 0; 
+	}
+.main{
+	width: 100%;
+	height: 630px;
+	background-image: url(images/zhuce2.jpg);
+	background-size: cover;
+	}
+.wenzi{
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	font-size: 54px;
+	font-family: 楷体;
+	padding-top: 100px;
+	}
+.zhuce{
+	width: 480px;
+	height: 360px;	
+	margin: -40px auto 0 auto;
+	text-align: center;
+	padding-top: 1px;
+	background: url(images/loginbg.jpg);
+	background-size: 100% 360px;
+	opacity: 0.8;
+	}
+.zhuce h1{
+	padding: 10px 0;
+	}
+.input{
+	border:0;
+	padding: 0;
+	margin:0;
+	border:1px solid #cccccc;
+	width:200px;
+	height:37px;
+	padding-left: 10px;
+	color: #000000;
+	}
