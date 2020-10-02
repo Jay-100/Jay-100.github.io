@@ -1,0 +1,138 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	}
+.top{
+	width: 100%;
+	height: 500px;
+	margin: 0 auto 0 auto;
+	background-image: url(images/主.jpg);
+	background-size: cover;
+	}
+.wenzi{
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	font-size: 54px;
+	font-family: 方正兰亭粗黑;
+	color: white;
+	padding-top: 200px;
+	}
+.wenzi img{
+	margin-bottom: -30px;
+	height: 100px;
+	}
+.sousuokuang{
+	width: 1000px;
+	height: 80px;
+	margin: 0 auto 0 auto;
+	}
+.sousuokuang input{
+	width: 1000px;
+	height: 60px;
+	background: url(images/sousuo.jpg) no-repeat right;
+	color: white;
+	border: solid 1px #cccccc;
+	font-size: 20px;
+	}
+.daohang{
+	height: 40px;
+	text-align: center;
+	font-size: 28px;
+	padding-top: 30px; 
+	}
+.daohang a{
+	padding: 10px; 
+	border-bottom: solid 1px #cccccc; 
+	color: #b3b0b0;
+	text-decoration: none;
+	}
+.daohang a:hover{
+	color: black;
+	border-bottom: solid 2px #28b76c;
+	}
+#denglu{
+	float: right;
+	padding: 10px;
+	margin: -43px 0 5px 0;
+	border: solid 1px #cccccc;
+	background-color: #28b76c;
+	color: white; 
+	text-decoration: none;
+	font-size: 24px;
+	}
+#denglu:hover{
+	background-color: #349461; 
+	}
+.tuijian{
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	padding-top: 80px; 
+	margin: 0 auto 0 auto;
+	font-size: 26px;
+	}
+.chengshi{
+	list-style-type: none; 
+	width: 800px;
+	margin: 0 auto 0 auto;
+	text-align: left;
+	padding-top: 80px; 
+	padding-bottom: 100px;
+	font-size: 26px;
+	}
+.chengshi li{
+	padding-top: 20px;
+	font-size: 14px；
+	color: black;
+	}
+.chengshi a{
+	font-size: 18px;
+	color: #b3b0b0;
+	position: relative;
+	top: -4px;
+	left: 200px;
+	}
+#lianjie:hover{
+	color: #28b76c;
+	}
+#chengshi1{
+	padding-top: 20px;
+	font-size: 14px；
+	color: black;
+	}
+#chengshi1 a{
+	font-size: 18px;
+	color: #b3b0b0;
+	position: relative;
+	top: -4px;
+	left: 175px;
+	}
+#chengshi2{
+	padding-top: 20px;
+	font-size: 14px；
+	color: black;
+	}
+#chengshi2 a{
+	font-size: 18px;
+	color: #b3b0b0;
+	position: relative;
+	top: -4px;
+	left: 97px;
+	}
+.bottom{
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	}
+.bottom a{
+	color: black;
+	font-size: 18px;
+	}
+.bottom a:hover{
+	color: #349461;
+	}
+.bottom p{
+	padding-top: 5px;
+	}
