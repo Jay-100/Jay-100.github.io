@@ -3,16 +3,45 @@
 	margin: 0;
 	text-decoration: none;
 	}
+.nav1{
+	width: 100%;
+	height: 53px;
+	background-color: #3c3c3c;
+	}
+.nav2{
+	width: 40%;
+	float: left;
+	}
+.nav2 a{
+	font-size: 36px;
+	font-family: 思源宋体;
+	margin-left: 40px;
+	color: white;
+	}
+.nav3{
+	width: 60%;
+	float: right;
+	padding-top: 10px;
+	}
+.nav3 a{
+	color: white;
+	font-size: 22px;
+	padding: 12px;
+	}
+.nav3 a:hover{
+	color: white;
+	background-color: #5a5a5a;
+	}
 .top{
 	width: 100%;
-	height: 500px;
-	margin: 0 auto 0 auto;
+	margin: 0 auto;
 	background-image: url(images/主.jpg);
 	background-size: cover;
 	}
 .wenzi{
-	width: 100%;
+	width: 50%;
 	height: 150px;
+	margin: 0 auto;
 	text-align: center;
 	font-size: 54px;
 	font-family: 方正兰亭粗黑;
@@ -24,40 +53,21 @@
 	height: 100px;
 	}
 .sousuokuang{
-	width: 1000px;
+	width: 70%;
 	height: 80px;
-	margin: 0 auto 0 auto;
+	margin: 0 auto;
 	}
 .sousuokuang input{
-	width: 1000px;
+	width: 100%;
 	height: 60px;
 	background: url(images/sousuo.jpg) no-repeat right;
 	color: white;
 	border: solid 1px #cccccc;
 	font-size: 20px;
 	}
-.daohang{
-	height: 40px;
-	text-align: center;
-	font-size: 28px;
-	padding-top: 30px; 
-	}
-.daohang a{
-	padding: 10px; 
-	border-bottom: solid 1px #cccccc; 
-	color: #b3b0b0;
-	text-decoration: none;
-	}
-.daohang a:hover{
-	color: black;
-	border-bottom: solid 2px #28b76c;
-	}
 #denglu{
-	float: right;
 	padding: 10px;
-	margin: -43px 0 5px 0;
-	border: solid 1px #cccccc;
-	background-color: #28b76c;
+	background-color: #3eb977;
 	color: white; 
 	text-decoration: none;
 	font-size: 24px;
@@ -65,56 +75,65 @@
 #denglu:hover{
 	background-color: #349461; 
 	}
+.TJ{}
 .tuijian{
 	width: 100%;
-	height: 60px;
+	text-align: center;
+	padding-top: 80px; 
+	margin: 0 auto;
+	font-size: 26px;
+	}
+.tuijian1{
+	width: 100%;
 	text-align: center;
 	padding-top: 80px; 
 	margin: 0 auto 0 auto;
 	font-size: 26px;
 	}
 .chengshi{
-	list-style-type: none; 
-	width: 800px;
-	margin: 0 auto 0 auto;
-	text-align: left;
-	padding-top: 80px; 
+	width: 56%;
+	height: 360px;
+	margin: 0 auto;
+	padding-top: 50px; 
 	padding-bottom: 100px;
-	font-size: 26px;
+	display: flex; 
 	}
-.chengshi li{
+.L{
+	width: 40%;
 	padding-top: 20px;
-	font-size: 14px；
+	font-size: 24px;
+	color: black;
+	float: left;
+	padding-right: 20px;
+	}
+.L p{
+	padding-top: 20px;
+	font-size: 24px;
 	color: black;
 	}
-.chengshi a{
+.R{
 	font-size: 18px;
 	color: #b3b0b0;
-	position: relative;
-	top: -4px;
-	left: 200px;
+	float: right;
+	}
+.R p{
+	padding-top: 30px;
+	}
+.R p a{
+	font-size: 16px;
+	color: #b3b0b0;
 	}
 #lianjie:hover{
 	color: #28b76c;
 	}
-#chengshi1{
-	padding-top: 20px;
-	font-size: 14px；
-	color: black;
-	}
-#chengshi1 a{
+#beimeizhou a{
 	font-size: 18px;
 	color: #b3b0b0;
 	position: relative;
 	top: -4px;
 	left: 175px;
 	}
-#chengshi2{
-	padding-top: 20px;
-	font-size: 14px；
-	color: black;
-	}
-#chengshi2 a{
+#nanmeizhou a{
 	font-size: 18px;
 	color: #b3b0b0;
 	position: relative;
@@ -123,16 +142,162 @@
 	}
 .bottom{
 	width: 100%;
-	height: 80px;
+	height: 370px;
 	text-align: center;
+	background-color: #3c3c3c;
+	color: #939393;
 	}
-.bottom a{
-	color: black;
+.zuo{
+	width: 60%;
+	float: left;
+	font-family: 宋体;
+	padding-top: 90px;
+	}
+.wangzhan{
+	width: 220px;
+	float: left;
+	padding-left: 180px;
+	}
+#dyh{
+	margin-bottom: 12px;
 	font-size: 18px;
 	}
-.bottom a:hover{
-	color: #349461;
+.wangzhan p{
+	margin-bottom: 8px;
+	text-align: left;
 	}
-.bottom p{
-	padding-top: 5px;
+.guanyu{
+	width: 80px;
+	float: left;
+	padding-left: 60px;
+	}
+.guanyu p{
+	margin-bottom: 12px;
+	font-size: 18px;
+	}
+.guanyu a{
+	display: block;
+	color: #939393;
+	padding-bottom: 4px;
+	}
+.guanyu a:hover{
+	color: white;
+	}
+.fuwu{
+	width: 80px;
+	float: left;
+	padding-left: 60px;
+	}
+.fuwu p{
+	margin-bottom: 12px;
+	font-size: 18px;
+	}
+.fuwu a{
+	display: block;
+	color: #939393;
+	padding-bottom: 4px;
+	}
+.fuwu a:hover{
+	color: white;
+	}
+.you{
+	float: right;
+	width: 40%;
+	padding-top: 86px;
+	}
+.you a{
+	color: white;
+	font-size: 62px;
+	font-family: 思源宋体;
+	}
+#yazhou{}
+#ouzhou{}
+#feizhou{}
+#beimeizhou{
+	padding-top: 20px;
+	font-size: 24px;
+	color: black;}
+#nanmeizhou{
+	padding-top: 20px;
+	font-size: 24px;
+	color: black;}
+.jingdian{
+	padding-top: 80px;
+	display: flex; 
+	justify-content: space-around; 
+	width:80%; 
+	margin:0 auto;
+	}
+.jingdian a{
+	width:23.5%; 
+	background:#f2f2f2; 
+	border-radius: 6px; 
+	overflow: hidden; 
+	color:#333; 
+	position: relative; 
+	top:0; 
+	transition: 0.3s;
+	}
+.jingdian a:hover{
+	top:-5px; 
+	box-shadow: 0 5px 30px rgba(16,97,238,0.1);
+	}
+.jingdianPic img{
+	width: 100%;
+	}
+.jingdianTxt{ padding:30px 25px;}
+.jingdianTxt h2{ font-size:23px; color:#111; padding-bottom:18px;}
+.jingdianTxt  p{ font-size:13px; color:#777; text-align: justify; min-height: 75px; padding-bottom: 5px;}
+
+
+
+/* **********移动端适配********** */
+@media (max-width: 956px){
+	.jingdian{ 
+		display: flex; 
+		justify-content:space-between; 
+		flex-wrap: wrap; 
+		width:100%; 
+		margin:0 auto; 
+		padding: 50px 20px; 
+		box-sizing: border-box;
+		}
+	.jingdian a{ 
+		width:49%; 
+		transition: 0.3s;
+		margin-bottom:10px;
+		}
+	.chengshi{
+		width: 62%;
+		padding-top: 34px;
+		padding-bottom: 40px;
+		}
+	.L{
+		width: 29%;
+		}
+	.wangzhan{
+		padding-left: 40px;
+		}
+	.guanyu{
+		padding-left: 40px;
+		}
+	.fuwu{
+		padding-left: 40px;
+		}
+	.TJ{
+		padding-bottom: 15px;
+		}
+	.tuijian{
+		padding-top: 0;
+		}
+	.top{
+		background-size: 100% no-repeat;
+		}
+	.wenzi{
+		font-size: 38px;
+		padding-top: 170px;
+		}
+	.you a{
+		font-size: 34px;
+		}
 	}
